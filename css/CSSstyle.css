@@ -1,0 +1,131 @@
+body{
+    color: #40514E;
+    margin:0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+h1{font-size: 90px;
+   color:rgb(22, 19, 19);
+    margin-top: 0px;
+    font-family: 'Sacramento',cursive;
+
+}
+h2{  font-size: 50px;
+    color:black;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+h3{ font-size: 30px;
+    color: black;
+    font-family: 'Montserrat',sans-serif;
+}
+div{
+    background-color: #8FBDD3;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
+.top-container{
+    background-color:#8FBDD3 ;
+   position: relative;
+   padding-top: 100px;
+    
+}
+
+.bottom-container{
+   background-color: #66BFBF;
+   padding: 50px 0 20px;
+   
+   
+}
+.top-cloud{
+    position:absolute;
+    right: 300px;
+    top: 40px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+.profilepic{
+    height: 400px;
+    width: 400px;
+}
+.skill-row{
+    width: 50;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.code-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.laptop-img{
+   width: 25%;
+   float: right;
+   margin: 30px;
+
+}
+.code-skill-description{
+    clear: left;
+}
+.coding-skill-description{
+    clear: left;
+}
+.intro{
+    width: 30%;
+    margin: auto;
+}
+hr{
+    border: dotted #EAf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+
+}
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+
+.btn {
+    font-size:15px;
+    font-family:Arial;
+    width:140px;
+    height:50px;
+    border-width:1px;
+    color:#ffffff;
+    border-color:#a511c0;
+    font-weight:bold;
+    border-top-left-radius:21px;
+    border-top-right-radius:21px;
+    border-bottom-left-radius:21px;
+    border-bottom-right-radius:21px;
+    box-shadow:inset 0px 1px 40px 0px #e184f3;
+    text-shadow:inset 0px 1px 33px #9b14b3;
+    background:linear-gradient(#c123de, #a20dbd);
+  }
+  
+  .btn:hover {
+    background: linear-gradient(#a20dbd, #c123de);
+  }
+  a{
+      color: #11999e;
+      font-family: 'Montserrat',sans-serif;
+      margin: 10px 20px;
+      text-decoration: none;
+  }
+   a:hover{
+       color: #EAf6f6;
+   }
+    .copyright{
+        color:#eaf6f6 ;
+        font-size: 0.75rem;
+        padding: 20px 0px;
+    }
